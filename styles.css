@@ -29,6 +29,9 @@ body {
 .col-6 {
   width: calc(50% - 24px);
 }
+.col-8 {
+  width: calc(100% * 2 / 3 - 24px);
+}
 #navbar {
   width: 100%;
 }
@@ -71,6 +74,7 @@ body {
   color: white;
   border-radius: 10px;
 }
+
 #header .container {
   display: flex;
   background: lightgray;
@@ -91,6 +95,7 @@ body {
   flex-direction: column;
   padding: 0 10px;
 }
+
 #header .title-find p {
   font-family: "Anton";
   font-style: normal;
@@ -152,6 +157,7 @@ body {
   background: orange;
   display: flex;
   padding-top: 60px;
+  gap: 30px;
 }
 #payday .container .image img {
   width: 400px;
@@ -159,6 +165,50 @@ body {
 }
 #payday .container .content {
   padding: 0px 30px;
+}
+#payday .content span {
+  background: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+#payday .content-payday h1 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 80px;
+
+  color: black;
+  background: white;
+  height: 58px;
+  width: 100%;
+  padding: 10px 20px;
+  transform: translateX(-20px) rotate(-3deg);
+}
+#payday .content-payday {
+  position: relative;
+  width: fit-content;
+}
+#payday .content-payday div {
+  position: relative;
+  width: fit-content;
+}
+#payday .content span a {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+#payday .content h1 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 30px;
+  color: black;
 }
 #store .container {
   background: #ffff;
@@ -168,6 +218,36 @@ body {
 }
 #store .content {
   padding: 30px 50px;
+}
+#store .content h2 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 30px;
+  color: black;
+}
+#store .content p {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 30px;
+  color: black;
+}
+#store .content span {
+  background: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+#store .content span a {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
 }
 #store .image {
   display: flex;
@@ -184,7 +264,10 @@ body {
   background: white;
   display: flex;
 }
-#favorite .title h3 {
+#favorite .title {
+  text-align: left;
+}
+#favorite .title h4 {
   font-family: "Anton";
   font-style: normal;
   font-weight: 100;
@@ -192,8 +275,6 @@ body {
   line-height: 30px;
   color: black;
   padding: 0 30px;
-  padding-bottom: 40px;
-  justify-content: flex-start;
 }
 #favorite .card {
   padding: 50px;
@@ -218,4 +299,89 @@ body {
   width: 50px;
   height: 50px;
   background: white;
+}
+#download .container {
+  padding-top: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+#download .title-content h3 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 60px;
+  padding: 0 30px;
+}
+#download .title-content p {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 60px;
+  padding: 0 25px;
+}
+#download .title-image img {
+  height: 65px;
+  align-items: center;
+}
+#join .container {
+  padding: 30px 0;
+  background: orange;
+  display: flex;
+}
+#join .title {
+  text-align: center;
+  color: white;
+}
+#join .title h2 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 60px;
+  padding: 0 30px;
+}
+#join .title p {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 60px;
+}
+#join .form-email {
+  background: white;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+#join .form-email input {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 0px solid white;
+}
+#join .form-email button {
+  background: black;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+}
+#footer .container {
+  background: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+#footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
 }
