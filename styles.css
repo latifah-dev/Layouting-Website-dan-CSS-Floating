@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Anybody&display=swap");
+.body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: gray;
+}
+.container {
+  /*titik buat class*/
+  width: 1200px; /*container with gutter */
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.col-4 {
+  width: calc(100% / 3 - 24px);
+}
+.col-6 {
+  width: calc(50% - 24px);
+}
+#navbar {
+  width: 100%;
+}
+#navbar .container {
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+#navbar .logo {
+  font-family: "Anton";
+  font-style: italic;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 20px;
+  color: black;
+}
+#navbar ul {
+  list-style: none; /*menghilangkan bullet*/
+  display: flex;
+  gap: 25px;
+}
+#navbar ul li {
+  float: left; /*biar menunya mendatar*/
+}
+#navbar ul li a {
+  text-decoration: none; /*menghilangkan garis bawah */
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1px;
+  color: black;
+}
+#navbar ul li .signup {
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+#header .container {
+  display: flex;
+  background: lightgray;
+}
+
+#header .container .title .title-logo img {
+  height: 65px;
+  align-items: center;
+}
+#header .container .title p span {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 60px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+#header .title-find p {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 1px;
+  color: black;
+  padding: 30px 10px;
+}
+#header .container .image img {
+  width: 320px;
+  height: 500px;
+  filter: drop-shadow(32px -5px #ffff) drop-shadow(32px -5px orange);
+}
+#arrivals {
+  width: 100%;
+}
+#arrivals .container {
+  padding-top: 60px;
+  background: white;
+  display: flex;
+}
+#arrivals .title h3 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+  padding: 0 30px;
+  padding-bottom: 40px;
+  align-items: left;
+}
+#arrivals .card {
+  padding: 50px;
+}
+#arrivals .card-content {
+  display: flex;
+  justify-content: space-between;
+}
+#arrivals .card img {
+  width: 100%;
+  background: grey;
+}
+#arrivals .card-title {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+}
+#arrivals .card-arrow img {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+#payday .container {
+  background: orange;
+  display: flex;
+  padding-top: 60px;
+}
+#payday .container .image img {
+  width: 400px;
+  align-items: center;
+}
+#payday .container .content {
+  padding: 0px 30px;
+}
+#store .container {
+  background: #ffff;
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+#store .content {
+  padding: 30px 50px;
+}
+#store .image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#store .amazon img {
+  width: 150px;
+  height: 150px;
+  background: grey;
+}
+#favorite .container {
+  padding-top: 60px;
+  background: white;
+  display: flex;
+}
+#favorite .title h3 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+  padding: 0 30px;
+  padding-bottom: 40px;
+  justify-content: flex-start;
+}
+#favorite .card {
+  padding: 50px;
+}
+#favorite .card-content {
+  display: flex;
+  justify-content: space-between;
+}
+#favorite .card img {
+  width: 100%;
+  background: grey;
+}
+#favorite .card-title {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+}
+#favorite .card-arrow img {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
